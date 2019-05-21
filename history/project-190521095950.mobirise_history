@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "blog.html",
     "name": "Jose HH",
     "theme": {
       "name": "mobirise3",
@@ -17,25 +17,16 @@
         "textFont": "Lora",
         "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false,
-        "isRtl": false
-      },
-      "additionalSetColors": []
+        "isScrollToTopButton": false
+      }
     },
     "versionFirst": "3.9.2",
     "uniqCompNum": 24,
-    "versionPublish": "4.10.0",
+    "versionPublish": "3.10.3",
     "favicon": "@PROJECT_PATH@/assets/images/favicontrans-128x128-70.png",
     "noImageResize": "",
     "cookiesAlert": "Cookies para una mejor experiencia.<a href='privacy.html'>cookie policy</a>.",
-    "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-70763632-1', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>",
-    "path": "@PROJECT_PATH@",
-    "siteFonts": [],
-    "publishType": "github",
-    "publishPath": "file:///C:/users/josehh/Mis%20Documentos/web%20josehh.es/public_html/web%20mobirise",
-    "gitHubName": "josehh",
-    "gitHubPath": "",
-    "screenshot": "screenshot.png"
+    "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-70763632-1', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>"
   },
   "pages": {
     "index.html": {
@@ -108,17 +99,17 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": true,
-            "sticky": true,
-            "collapsed": true,
-            "transparent": true,
             "bgColor": "#282828",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor"
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
           },
           "logo": {
             "image": {
@@ -151,24 +142,24 @@
           },
           "_anchor": "header2-0",
           "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": false,
-            "inverse": false,
-            "showArrow": true,
             "imageSize": "48",
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/94-reducida-blur-plus-2000x1250-71.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
             "bgColor": "#2e2e2e",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.3,
             "overlayColor": "#000",
-            "overlayOpacity": 0.3
+            "inverse": false,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "showArrow": true
           },
           "media": {
             "image": {
@@ -203,26 +194,26 @@
           "_name": "header1",
           "_anchor": "header1-7",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": true,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#a07e49",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "overlayOpacity": 0.5
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
           },
           "title": "ACTIVIDAD",
-          "text": "<br>- IFOC (2018) Institut de Formació i Ocupació de Calvià \n<br>Formador HTML-WordPress <br>- <b>DSKonsulting</b> (2014-2016) Consultoría Organizacional:        <br>Gestión de proyectos AXISDATA, HERTZ, LowCostHolidays.<br>- Docente en consultoría <b>FEMXA</b> (2013)<br>- Profesor de <b>EDIB</b> (Escuela de diseño e informática de las islas baleares) (2002-2015)<br>Asignaturas de informática y área de diseño gráfico,WEB y multimedia.<br>- Profesor de s.o. UBUNTU y software libre en <b>EDIB</b> (curso de acceso)(2010-2011)<br>- Docente <b>UNIR</b> (Universidad Internacional la Rioja) (2011-2012)<br>Asignatura TIC (Tecnologías de la información y Comunicación)<br>- Docente en Serveis d’Ocupaciò <b>SOIB</b> (2010-2011)<br>- Profesor de <b>ESI</b> (Escuela de Sistemas Informáticos) (1996-2002)<br>Asignaturas de informática, diseño gráfico, CAD, multimedia, web y video digital.<br>- Docente en <b>GAM</b>(Consultoría de Formación y Servicios)(1996)<br>- Fundador y copropietario de la empresa de publicidad <b>IPOGRAPH</b> SL. (1995)<br>- <b>Cruz Roja Baleares</b>: Implantación Base de Datos de socios y recursos (1994)<br>- Delegado de <b>Cruz Roja Juventud</b> Palma (1993-1994)<br>- Coordinación de programas sociales <b>P.E.C.</b> de Cruz Roja (1993-1994)<br>- Coordinación de actividades en el centro ocupacional <b>ISLA</b> (1991-1992)<br>- Fundación y presidencia de la Asociación <b>AMITICIA</b> (1988)<br>(Entidad para la integración de personas con discapacidad).",
+          "text": "<br>- <b>DSKonsulting</b> (2014-2015) Consultoría Organizacional:        <br>Gestión de proyectos AXISDATA, HERTZ, LowCostHolidays.<br>- Docente en consultoría <b>FEMXA</b> (2013)<br>- Profesor de <b>EDIB</b> (Escuela de diseño e informática de las islas baleares) (2002-2015)<br>Asignaturas de informática y área de diseño gráfico,WEB y multimedia.<br>- Profesor de s.o. UBUNTU y software libre en <b>EDIB</b> (curso de acceso)(2010-2011)<br>- Docente <b>UNIR</b> (Universidad Internacional la Rioja) (2011-2012)<br>Asignatura TIC (Tecnologías de la información y Comunicación)<br>- Docente en Serveis d’Ocupaciò <b>SOIB</b> (2010-2011)<br>- Profesor de <b>ESI</b> (Escuela de Sistemas Informáticos) (1996-2002)<br>Asignaturas de informática, diseño gráfico, CAD, multimedia, web y video digital.<br>- Docente en <b>GAM</b>(Consultoría de Formación y Servicios)(1996)<br>- Fundador y copropietario de la empresa de publicidad <b>IPOGRAPH</b> SL. (1995)<br>- <b>Cruz Roja Baleares</b>: Implantación Base de Datos de socios y recursos (1994)<br>- Delegado de <b>Cruz Roja Juventud</b> Palma (1993-1994)<br>- Coordinación de programas sociales <b>P.E.C.</b> de Cruz Roja (1993-1994)<br>- Coordinación de actividades en el centro ocupacional <b>ISLA</b> (1991-1992)<br>- Fundación y presidencia de la Asociación <b>AMITICIA</b> (1988)<br>(Entidad para la integración de personas con discapacidad).",
           "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">TOP</a>"
         },
         {
@@ -243,50 +234,50 @@
           "_name": "header5",
           "_anchor": "header5-1",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "showArrow": false,
-            "contentAlign": "left",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImageRadio": false,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#efefef",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "overlayOpacity": 0.5
+            "contentAlign": "left",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
           },
           "title": "CONTACTO",
-          "text": "Marqués del Palmer\n<br>Colonia de San Jordi, Ses Salines\n<br>Baleares \n<br>\n<br>Avda Gabriel Alomar i Villalonga\n<br>Palma de Mallorca\n<br>Baleares<br><br>Teléfono: 677 40 39 25.",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://www.facebook.com/josehernandezholgado\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://twitter.com/jose_hh\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://es.linkedin.com/in/josehh\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a>  <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"mailto:josehh@gmail.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a> "
+          "text": "Avda Gabriel Alomar i Villalonga<br>Palma de Mallorca<br>Baleares<br><br>Teléfono: 677 40 39 25.",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://www.facebook.com/josehernandezholgado\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-facebook mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://twitter.com/jose_hh\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-twitter mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://es.linkedin.com/in/josehh\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-linkedin mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"http://remabien.blogspot.com.es\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-blogger mbr-iconfont mbr-iconfont-btn\"></span></a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"mailto:josehh@gmail.com\" data-toolbar=\"-mbrBtnMove\"><span class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span></a> "
         },
         {
           "_name": "footer1",
           "_styles": {
             "P": {
               "text-align": "right",
-              "color": "#c1c1c1"
+              "color": "#475577"
             }
           },
           "_anchor": "footer1-2",
           "_params": {
-            "paddingTop": "2",
+            "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#efefef",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2018 "
+          "text": "Copyright (c) 2016&nbsp;"
         }
       ]
     },
@@ -299,24 +290,23 @@
           "_name": "footer1",
           "_styles": {
             "P": {
-              "text-align": "right",
-              "color": "#c1c1c1"
+              "text-align": "right"
             }
           },
           "_anchor": "footer1-9",
           "_params": {
-            "paddingTop": "2",
+            "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#323232",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2018 "
+          "text": "Copyright (c) 2016&nbsp;"
         },
         {
           "_styles": {
@@ -330,10 +320,10 @@
           "_name": "header3",
           "_anchor": "header3-a",
           "_params": {
-            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fff"
+            "bgColor": "#fff",
+            "showMeta": false
           },
           "title": "POLITICA DE COOKIES",
           "meta": "By John Smith posted July 20, 2016"
@@ -389,24 +379,24 @@
           "_name": "msg-box2",
           "_anchor": "msg-box2-m",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "inverse": false,
             "paddingTop": "0",
             "paddingBottom": "0",
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#efefef",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "inverse": false,
+            "showButtons": true,
+            "showTitle": true,
+            "showText": true
           },
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">WEB</a>     ",
           "title": "Blog",
@@ -433,23 +423,23 @@
           "_styles": {
             "P": {
               "text-align": "right",
-              "color": "#c1c1c1"
+              "color": "#475577"
             }
           },
           "_anchor": "footer1-2",
           "_params": {
-            "paddingTop": "2",
+            "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#efefef",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2018 "
+          "text": "Copyright (c) 2016&nbsp;"
         }
       ]
     }

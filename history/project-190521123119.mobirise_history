@@ -34,8 +34,7 @@
     "publishType": "github",
     "publishPath": "file:///C:/users/josehh/Mis%20Documentos/web%20josehh.es/public_html/web%20mobirise",
     "gitHubName": "josehh",
-    "gitHubPath": "",
-    "screenshot": "screenshot.png"
+    "gitHubPath": ""
   },
   "pages": {
     "index.html": {
